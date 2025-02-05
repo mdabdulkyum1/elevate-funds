@@ -7,6 +7,14 @@ A crowdfunding platform where you can transform your innovative ideas into reali
 **[Category Link](https://docs.google.com/document/d/1YQytgBxCeXVy7SxTiulD_f9kSl7x3gBFmpJ4iRTX3V8/edit?tab=t.0)**
 ---
 
+###
+
+<div align="center">
+  <img height="500"  src="https://i.ibb.co.com/vv6xR7P1/Elevate-Funds.png"  />
+</div>
+
+###
+
 ## Features  
 1. **Crowdfunding Made Easy:**  
    Users can create campaigns, set minimum donation amounts, and connect with contributors seamlessly.
@@ -38,3 +46,12 @@ A crowdfunding platform where you can transform your innovative ideas into reali
 - **Backend:** Node.js, Express.js.  
 - **Database:** MongoDB for secure and efficient data storage.  
 - **Authentication:** Firebase/AuthContext for user authentication.  
+
+## set .env file like ...
+## firebaseConfig 
+  - apiKey: import.meta.env.VITE_apiKey,
+  - authDomain: import.meta.env.VITE_authDomain,
+  - projectId: import.meta.env.VITE_projectId,
+  - storageBucket: import.meta.env.VITE_storageBucket,
+  - messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  - appId: import.meta.env.VITE_appId,
